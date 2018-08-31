@@ -36,11 +36,6 @@ public class CollectionTestSuite {
     @Test
     public void testOddNumbersExterminatorNormalList() {
 
-        //Given
-        ArrayList<Integer> exterminateList (ArrayList<Integer> numbers);
-
-
-
     }
 
 }
