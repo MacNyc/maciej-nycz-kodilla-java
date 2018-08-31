@@ -1,8 +1,8 @@
 package com.kodilla.testing.collection;
 
 import org.junit. *;
-
 import java.util.ArrayList;
+import java.lang. *;
 import java.util.Random;
 
 
@@ -35,17 +35,12 @@ public class CollectionTestSuite {
 
     @Test
     public void testOddNumbersExterminatorNormalList() {
-        ArrayList<Integer> exterminateList ArrayList <Integer> ();{
-            ArrayList<Integer> even = new ArrayList<>();
-            Random theGenerator = new Random();
-            for (Integer n = 0; n < 50; n++) {
-                exterminateList.add(theGenerator.nextInt(50));
-            }
-            for(int n = 0; n < 50; n++)
-                if (n % 2 == 0) {
-                    even.add(n);
-                }
-            return even;
-        }
+
+        //Given
+        ArrayList<Integer> exterminateList (ArrayList<Integer> numbers);
+
+
+
     }
+
 }
