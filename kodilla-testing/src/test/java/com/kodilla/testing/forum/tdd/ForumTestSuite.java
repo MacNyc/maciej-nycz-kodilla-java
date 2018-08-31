@@ -25,7 +25,7 @@ public class ForumTestSuite {
     }
 
     @Test
-    public void testaddFigure() {
+    public void testaddPost() {
         //Given
         ForumUser forumUser = new ForumUser("mrsmith", "John Smith");
 

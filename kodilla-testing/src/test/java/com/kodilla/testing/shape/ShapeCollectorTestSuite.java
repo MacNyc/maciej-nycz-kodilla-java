@@ -23,16 +23,32 @@ public class ShapeCollectorTestSuite {
 
     @Test
     public void testAddFigure(Shape shape) {
+        ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector.addFigure(shape);
+
+        Assert.assertEquals(1, shapeCollector.getFigureQuantity());
 
     }
 
     @Test
     public void testRemoveFigure(Shape shape){
+        ShapeCollector shapeCollector = new ShapeCollector();
+        shapeCollector.addFigure(shape);
 
+        shapeCollector.addFigure(shape);
+
+        //When
+        boolean result = shapeCollector.removeFigure(shape);
+
+        //Then
+        Assert.assertTrue(result);
+        Assert.assertEquals(0, shapeCollector.getFigureQuantity());
     }
 
+
     @Test
-    public void testGetFigure(int n) {
+    public void testGetFigure() {
+
 
     }
 
