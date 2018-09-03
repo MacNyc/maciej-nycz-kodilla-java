@@ -1,59 +1,32 @@
 package com.kodilla.testing.shape;
 
+import javafx.scene.shape.Circle;
 import org.junit.*;
 
 public class ShapeCollectorTestSuite {
-    private static int testCounter = 0;
-
-    @BeforeClass
-    public static void beforeAllTests() {
-        System.out.println("This is the beginning of tests.");
-    }
-
-    @AfterClass
-    public static void afterAllTests() {
-        System.out.println("All tests are finished.");
-    }
-
-    @Before
-    public void beforeEveryTest() {
-        testCounter++;
-        System.out.println("Preparing to execute test #" + testCounter);
-    }
 
     @Test
-    public void testAddFigure(Shape shape) {
+    public void testAddFigure() {
         ShapeCollector shapeCollector = new ShapeCollector();
-        shapeCollector.addFigure(shape);
+        Circle circle = new Circle("Some circle", 2);
+        shapeCollector.addFigure((Shape) circle);
 
-        Assert.assertEquals(1, shapeCollector.getFigureQuantity());
-
+        Assert.assertEquals(circle, shapeCollector.getFigure(0));
+        Assert.assertEquals(12.56, shapeCollector.getFigure(0).getField(), 0.1);
     }
-
+}
     @Test
-    public void testRemoveFigure(Shape shape){
+    public void testRemoveFigure(){
         ShapeCollector shapeCollector = new ShapeCollector();
-        shapeCollector.addFigure(shape);
+        Circle circle = new Circle("Some circle", 2);
+        shapeCollector.removeFigure((Shape) circle);
 
-        shapeCollector.addFigure(shape);
-
-        //When
-        boolean result = shapeCollector.removeFigure(shape);
-
-        //Then
-        Assert.assertTrue(result);
-        Assert.assertEquals(0, shapeCollector.getFigureQuantity());
-    }
-
-
-    @Test
-    public void testGetFigure() {
-
-
+        Assert.assertEquals(circle, shapeCollector.getFigure(0));
+        Assert.assertEquals(12.56, shapeCollector.getFigure(0).getField(), 0.1);
     }
 
     @Test
-    public void testShowFigure() {
+    public void testGetFigure(int n) {
 
     }
 }

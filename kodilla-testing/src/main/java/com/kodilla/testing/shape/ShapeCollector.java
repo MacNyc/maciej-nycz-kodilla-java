@@ -5,14 +5,15 @@ import java.util.ArrayList;
 public class ShapeCollector {
     private ArrayList<Shape> geometricFigures = new ArrayList<>();
 
-    public int getFigureQuantity() {
-        return 3;
+    public Shape getFigure(int n) {
+        return geometricFigures.get(n);
     }
 
     public void addFigure(Shape shape) {
+        this.geometricFigures.add(shape);
     }
 
     public boolean removeFigure(Shape shape) {
-        return true;
+        return geometricFigures.remove(shape);
     }
 }

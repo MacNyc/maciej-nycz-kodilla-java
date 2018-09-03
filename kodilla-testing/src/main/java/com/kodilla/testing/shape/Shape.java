@@ -2,11 +2,7 @@ package com.kodilla.testing.shape;
 
 public interface Shape {
 
-    static void getShapeName() {
+    String getShapeName();
 
-    }
-
-    void getField() {
-
-    }
+    double getField();
 }
