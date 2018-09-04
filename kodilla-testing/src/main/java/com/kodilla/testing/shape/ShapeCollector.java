@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ShapeCollector {
     private ArrayList<Shape> geometricFigures = new ArrayList<>();
+    private int n;
 
     public void addFigure(Shape shape) {
         this.geometricFigures.add(shape);
@@ -13,7 +14,7 @@ public class ShapeCollector {
         return geometricFigures.remove(shape);
     }
 
-    public Shape getFigure(int n, Circle circle) {
+    public Shape getFigure(int i) {
         return geometricFigures.get(n);
     }
 

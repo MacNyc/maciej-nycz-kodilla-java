@@ -8,25 +8,40 @@ public class ShapeCollectorTestSuite {
     public void testAddFigure() {
         ShapeCollector shapeCollector = new ShapeCollector();
         Circle circle = new Circle("Some circle", 2);
+        Triangle triangle = new Triangle("Some triangle", 5, 4);
+        Square square = new Square("Some square",4);
 
-        shapeCollector.addFigure((Shape) circle);
+        shapeCollector.addFigure((Shape) triangle);
 
-        Assert.assertEquals(circle, shapeCollector.getFigure(0, circle));
-        Assert.assertEquals(12.56, shapeCollector.getFigure(0, circle).getField(), 0.1);
+
+        Assert.assertEquals(triangle, shapeCollector.getFigure(2));
+
     }
 
     @Test
     public void testRemoveFigure() {
         ShapeCollector shapeCollector = new ShapeCollector();
         Circle circle = new Circle("Some circle", 2);
+        Triangle triangle = new Triangle("Some triangle", 5, 4);
+        Square square = new Square("Some square",4);
 
-        boolean result = shapeCollector.removeFigure(circle);
+        boolean result = shapeCollector.removeFigure(triangle);
 
         Assert.assertFalse(result);
     }
 
     @Test
     public void testGetFigure() {
+        ShapeCollector shapeCollector = new ShapeCollector();
+        Circle circle = new Circle("Some circle", 2);
+        Triangle triangle = new Triangle("Some triangle", 5, 4);
+        Square square = new Square("Some square",4);
+
+        shapeCollector.addFigure(circle);
+        shapeCollector.addFigure(triangle);
+        shapeCollector.addFigure(square);
+
+        Assert.assertEquals(circle, shapeCollector.getFigure(2));
 
     }
 
