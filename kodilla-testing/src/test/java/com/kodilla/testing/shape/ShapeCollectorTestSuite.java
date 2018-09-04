@@ -11,10 +11,13 @@ public class ShapeCollectorTestSuite {
         Triangle triangle = new Triangle("Some triangle", 5, 4);
         Square square = new Square("Some square",4);
 
+        shapeCollector.addFigure((Shape) circle);
         shapeCollector.addFigure((Shape) triangle);
+        shapeCollector.addFigure((Shape) square);
 
 
-        Assert.assertEquals(triangle, shapeCollector.getFigure(2));
+        Assert.assertEquals(circle, shapeCollector.getFigure(0));
+        Assert.assertEquals(12.56, shapeCollector.getFigure(0).getField(), 0.1);
 
     }
 
@@ -25,9 +28,13 @@ public class ShapeCollectorTestSuite {
         Triangle triangle = new Triangle("Some triangle", 5, 4);
         Square square = new Square("Some square",4);
 
+        shapeCollector.addFigure((Shape) circle);
+        shapeCollector.addFigure((Shape) triangle);
+
+
         boolean result = shapeCollector.removeFigure(triangle);
 
-        Assert.assertFalse(result);
+        Assert.assertTrue(result);
     }
 
     @Test
@@ -41,7 +48,7 @@ public class ShapeCollectorTestSuite {
         shapeCollector.addFigure(triangle);
         shapeCollector.addFigure(square);
 
-        Assert.assertEquals(circle, shapeCollector.getFigure(2));
+        Assert.assertEquals(square, shapeCollector.getFigure(2));
 
     }
 
