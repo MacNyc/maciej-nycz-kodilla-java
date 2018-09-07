@@ -11,6 +11,10 @@ public class CalculateStatistic {
     private double avgCommentPerUser;
     private double avgCommentPerPost;
 
+    public CalculateStatistic(Statistics statisticsMock) {
+    }
+
+
     public void calculateAdvStatistics(Statistics statistics) {
 
         this.userQuantity = statistics.usersNames().size();
