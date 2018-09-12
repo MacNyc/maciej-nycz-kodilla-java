@@ -24,9 +24,19 @@ public class CalculateStatistic {
         this.userQuantity = statistics.usersNames().size();
         this.postQuantitiy = statistics.postsCount();
         this.commentQuantitiy = statistics.commentsCount();
-        this.avgPostPerUser = statistics.postsCount() / statistics.usersNames().size();
-        this.avgCommentPerUser = statistics.commentsCount() / statistics.usersNames().size();
-        this.avgCommentPerPost = statistics.commentsCount() / statistics.postsCount();
+
+        if (userQuantity == 0) {
+
+        }else{
+            this.avgPostPerUser = postQuantitiy / userQuantity;
+            this.avgCommentPerUser = commentQuantitiy / userQuantity;
+        }
+
+        if (postQuantitiy == 0) {
+
+        }else{
+            this.avgCommentPerPost = commentQuantitiy / postQuantitiy;
+        }
 
     }
 

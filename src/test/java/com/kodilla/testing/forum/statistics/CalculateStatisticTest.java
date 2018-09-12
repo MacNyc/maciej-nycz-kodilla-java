@@ -131,13 +131,14 @@ public class CalculateStatisticTest {
             namesList.add("firstUser");
         }
         when(statisticsMock.usersNames()).thenReturn(namesList);
+        when(statisticsMock.postsCount()).thenReturn(20);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
         calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int quantityOfUsers = calculateStatistic.getUserQuantity();
 
-        Assert.assertEquals(0, quantityOfUsers);
+        Assert.assertEquals(100, quantityOfUsers);
 
         Assert.assertEquals(0, calculateStatistic.getAvgPostPerUser(), 0);
         Assert.assertEquals(0, calculateStatistic.getAvgPostPerUser(), 0);
