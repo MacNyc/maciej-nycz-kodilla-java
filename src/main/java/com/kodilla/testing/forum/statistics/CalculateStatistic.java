@@ -11,6 +11,10 @@ public class CalculateStatistic {
     private double avgCommentPerUser;
     private double avgCommentPerPost;
 
+    public CalculateStatistic() {
+
+    }
+
     public CalculateStatistic(Statistics statisticsMock) {
     }
 
@@ -50,4 +54,3 @@ public class CalculateStatistic {
         return avgCommentPerPost;
     }
 }
-

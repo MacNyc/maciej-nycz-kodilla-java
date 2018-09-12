@@ -18,6 +18,7 @@ public class CalculateStatisticTest {
         when(statisticsMock.postsCount()).thenReturn(0);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int postQuantitiy = calculateStatistic.getPostQuantitiy();
 
@@ -34,10 +35,11 @@ public class CalculateStatisticTest {
         when(statisticsMock.postsCount()).thenReturn(1000);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int postQuantitiy = calculateStatistic.getPostQuantitiy();
 
-        Assert.assertEquals(0, postQuantitiy);
+        Assert.assertEquals(1000, postQuantitiy);
 
         Assert.assertEquals(0, calculateStatistic.getAvgPostPerUser(),0 );
         Assert.assertEquals(0, calculateStatistic.getAvgPostPerUser(), 0);
@@ -50,6 +52,7 @@ public class CalculateStatisticTest {
         when(statisticsMock.commentsCount()).thenReturn(0);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int commentsQuantitiy = calculateStatistic.getCommentQuantitiy();
 
@@ -68,6 +71,7 @@ public class CalculateStatisticTest {
         when(statisticsMock.commentsCount()).thenReturn(0);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int postQuantity = calculateStatistic.getPostQuantitiy();
         int commentsQuantity = calculateStatistic.getCommentQuantitiy();
@@ -87,6 +91,7 @@ public class CalculateStatisticTest {
         when(statisticsMock.commentsCount()).thenReturn(0);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int postQuantity = calculateStatistic.getPostQuantitiy();
         int commentsQuantity = calculateStatistic.getCommentQuantitiy();
@@ -106,6 +111,7 @@ public class CalculateStatisticTest {
         when(statisticsMock.usersNames()).thenReturn(namesList);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int quantityOfUsers = calculateStatistic.getUserQuantity();
 
@@ -127,6 +133,7 @@ public class CalculateStatisticTest {
         when(statisticsMock.usersNames()).thenReturn(namesList);
 
         CalculateStatistic calculateStatistic = new CalculateStatistic(statisticsMock);
+        calculateStatistic.calculateAdvStatistics(statisticsMock);
 
         int quantityOfUsers = calculateStatistic.getUserQuantity();
 
