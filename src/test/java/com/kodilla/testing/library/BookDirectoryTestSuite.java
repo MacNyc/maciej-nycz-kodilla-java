@@ -134,9 +134,7 @@ public class BookDirectoryTestSuite {
         // Given
         LibraryDatabase libraryDatabaseMock = mock(LibraryDatabase.class);
         BookLibrary bookLibrary = new BookLibrary(libraryDatabaseMock);
-
         LibraryUser libraryUser1 = new LibraryUser("Macie", "Nycz", "911215");
-
         List<Book> resultListOf5Books = generateListOfNBooks(5);
 
         when(libraryDatabaseMock.listBooksInHandsOf(libraryUser1))
