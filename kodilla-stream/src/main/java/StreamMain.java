@@ -1,24 +1,26 @@
 package com.kodilla.stream;
 
-import com.kodilla.stream.beautifier.PoemBeautifier;
-import com.kodilla.stream.iterate.NumbersGenerator;
-import com.kodilla.stream.reference.FuncionalDecorator;
 
-import static jdk.nashorn.internal.objects.NativeString.toLowerCase;
-import static jdk.nashorn.internal.objects.NativeString.trim;
+import com.kodilla.stream.forumuser.Forum;
+import com.kodilla.stream.forumuser.ForumUser;
+
+import java.util.Map;
+import java.util.stream.Collectors;
 
 
 public class StreamMain {
     public static void main(String[] args) {
-        PoemBeautifier poemBeautifier = new PoemBeautifier();
+        Forum theForum = new Forum();
+        Map<Integer, ForumUser> theResultMapOfForumUser = theForum.getUserList().stream()
+                .filter(ForumUser -> ForumUser.getSex() == 'M')
+                .filter(ForumUser -> ForumUser.getBirthDay().getYear() <= 1998)
+                .filter(ForumUser -> ForumUser.getPostQuantity() > 1)
+                .collect(Collectors.toMap(ForumUser:: getUniqUserID, forumUser -> forumUser));
 
-        poemBeautifier.beautify( "Lambda Is Coll", FuncionalDecorator::addABC);
-        poemBeautifier.beautify( "Mockito is not coll", FuncionalDecorator::toUpper);
-        poemBeautifier.beautify( "I NEED TO FIGURE SOMETHING OUT LIKE AN EXAMPLE", a -> toLowerCase(a));
-        poemBeautifier.beautify( "         Java       ", a -> trim(a));
-
-        System.out.println("Using Stream to generate even numbers from 1 to 20");
-        NumbersGenerator.generateEven(20);
+        System.out.println("# elements: " + theResultMapOfForumUser.size());
+        theResultMapOfForumUser.entrySet().stream()
+                .map(entry -> entry.getKey() + ": " + entry.getValue())
+                .forEach(System.out::println);
     }
 
 }
