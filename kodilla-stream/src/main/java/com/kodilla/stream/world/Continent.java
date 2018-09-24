@@ -15,6 +15,10 @@ public class Continent {
         return continentName;
     }
 
+    public List<Country> getCountryList() {
+        return countryList;
+    }
+
     public void addCountry(Country country){
         this.countryList.add(country);
     }
