@@ -41,8 +41,6 @@ public class WorldTestSuite {
         australiaOcenia.getCountryList().add(australia);
         australiaOcenia.getCountryList().add(newzealand);
 
-
-
         World world = new World();
         world.getListOfContinent().add(europe);
         world.getListOfContinent().add(asia);
@@ -52,10 +50,8 @@ public class WorldTestSuite {
         world.getListOfContinent().add(australiaOcenia);
 
         //When
-        BigDecimal totalPeopleQuantity = world.getListOfContinent().stream()
-                .flatMap(continent -> continent.getCountryList().stream())
-                .map(Country::getPeopleQuantity)
-                .reduce(BigDecimal.ZERO, (sum, current) -> sum = sum.add(current));
+        BigDecimal totalPeopleQuantity = world.getPeopleQuantity();
+
 
         //Then
         BigDecimal expectedPeopleQuantity = new BigDecimal("3386054059");
