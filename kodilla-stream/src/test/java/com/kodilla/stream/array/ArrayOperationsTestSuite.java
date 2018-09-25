@@ -15,10 +15,11 @@ public class ArrayOperationsTestSuite {
         numbers[4] = 100;
 
         //When
-        double numbersAverage = ArrayOperations.getAverage(new int[5]);
+        double numbersAverage = ArrayOperations.getAverage(numbers);
+
 
         //Then
-        double[] expectedAverage = new double[36];
-        Assert.assertEquals(expectedAverage, numbersAverage);
+        double expectedAverage = 36;
+        Assert.assertEquals(expectedAverage,numbersAverage,0);
     }
 }
