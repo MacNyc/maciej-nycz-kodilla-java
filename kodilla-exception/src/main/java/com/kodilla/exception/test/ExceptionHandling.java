@@ -10,6 +10,8 @@ public class ExceptionHandling {
             secondChallenge.probablyIWillThrowException(5, 1.5);
         } catch (Exception e) {
             System.out.println("Problem");
+        } finally {
+            System.out.println("\nObsluga bledu Java");
         }
     }
 }
