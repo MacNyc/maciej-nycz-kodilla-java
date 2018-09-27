@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.time.temporal.ChronoUnit.DAYS;
 import static java.util.stream.Collectors.toList;
 
 public class BoardTestSuite {
@@ -143,6 +144,20 @@ public class BoardTestSuite {
         Board project = prepareTestData();
 
         //When
+        List<TaskList> timeTasks = new ArrayList<>();
+        timeTasks.add(new TaskList("To do"));
+        timeTasks.add(new TaskList("In progress"));
+        double listAverage = project.getTaskLists().stream()
+                .filter(timeTasks::contains)
+                .flatMap(tl -> tl.getTasks().stream())
+                .map(t -> t.getCreated())
+                .map(localDateCreatedDate -> DAYS.between(localDateCreatedDate, LocalDate.now()))
+                .mapToLong(days -> days)
+                .average()
+                .getAsDouble();
 
+        //Then
+        double expectedAverage = 14;
+        Assert.assertEquals(expectedAverage, listAverage, 0);
     }
 }

@@ -1,4 +1,12 @@
 package com.kodilla.exception.com.kodilla.exception.index;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class VideoCollector {
+    List<String> getCollection() {
+        ArrayList<String> videos = new ArrayList<>();
+        videos.add("Extra Movie");
+        return videos;
+    }
 }
