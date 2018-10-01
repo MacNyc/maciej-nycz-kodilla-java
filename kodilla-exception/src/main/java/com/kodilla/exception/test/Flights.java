@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Flights {
+
     public static void main(String[] args) {
         String departureAirport = "Warsaw Airport";
         Set<Flight> flights = new HashSet<>();
@@ -15,10 +16,12 @@ public class Flights {
         flights.add(new Flight(departureAirport, "Lisbon Airport"));
         flights.add(new Flight(departureAirport, "Katowice Pyrzowice Airport"));
 
+
         FlightSeeker schedule = new FlightSeeker();
+
         for (Flight flight : flights) {
-            try {
-                System.out.println("abc+ abc");
+            try { schedule.findFlight(flight);
+                System.out.println("abc");
             } catch (RouteNotFoundException e) {
                 System.out.println("Error" + e);
 

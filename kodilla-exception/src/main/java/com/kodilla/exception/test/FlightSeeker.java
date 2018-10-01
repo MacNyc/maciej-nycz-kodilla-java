@@ -18,7 +18,7 @@ public class FlightSeeker {
         airportNetwork.put("Katowice Pyrzowice Airport", true);
     }
 
-    public boolean findFlights(Flight flight) throws RouteNotFoundException {
+    public boolean findFlight(Flight flight) throws RouteNotFoundException {
         if (flight == null) {
             System.out.println("Flight not possible");
         }
