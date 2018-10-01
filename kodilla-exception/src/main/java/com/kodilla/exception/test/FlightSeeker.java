@@ -24,7 +24,7 @@ public class FlightSeeker {
         }
 
         String arrival = flight.getArrivalAirport();
-        if (airportNetwork.containsKey(arrival)) {
+        if (!airportNetwork.containsKey(arrival)) {
             throw new RouteNotFoundException();
         }
         return airportNetwork.get(arrival);

@@ -21,9 +21,9 @@ public class Flights {
 
         for (Flight flight : flights) {
             try { schedule.findFlight(flight);
-                System.out.println("abc");
+                System.out.println("\nFlight");
             } catch (RouteNotFoundException e) {
-                System.out.println("Error" + e);
+                System.out.println("\nError : "+ e);
 
             }
         }
