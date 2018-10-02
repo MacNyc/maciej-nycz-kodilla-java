@@ -30,6 +30,7 @@ public class MovieStore {
     }
 
     public static void main(String[] args){
+        new MovieStore().printAllTitlesAndTranslationsFrom(new MovieStore());
 
    }
 
@@ -40,4 +41,5 @@ public class MovieStore {
                 .collect(Collectors.joining("!"));
         System.out.println(print);
     }
+
 }
