@@ -5,8 +5,7 @@ public class ProductOrderService {
         System.out.println("Creating orders for" + user.getNickName() + "\nItem: " + product.getName() +
                 "\nQuantity: "+ quantity);
 
-        OrderRepository orderRepository = new OrderRepository();
-        orderRepository.createOrder(user, product, quantity);
+        OrderRequest orderRequest = new OrderRequest(user, product, quantity);
         return true;
     }
 
