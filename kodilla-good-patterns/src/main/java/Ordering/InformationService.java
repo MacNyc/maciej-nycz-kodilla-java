@@ -1,5 +1,5 @@
 package Ordering;
 
 public interface InformationService {
-    boolean inform(Order order);
+    public boolean inform(Order order);
 }

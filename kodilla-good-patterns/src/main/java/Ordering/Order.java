@@ -22,7 +22,17 @@ public class Order {
     public LocalDate getDate() {
         return date;
     }
+    public User getUser() {
+        return request.getUser();
+    }
 
+    public Product getProduct() {
+        return request.getProduct();
+    }
+
+    public int getQuantity() {
+        return request.getQuantity();
+    }
 
     @Override
     public boolean equals(Object o) {
@@ -44,6 +54,9 @@ public class Order {
         return "Order{" +
                 ", id=" + id +
                 ", date=" + date +
+                ", user=" + request.getUser() +
+                ", product=" + request.getProduct() +
+                ", quantity=" + request.getQuantity() +
                 '}';
     }
 }
