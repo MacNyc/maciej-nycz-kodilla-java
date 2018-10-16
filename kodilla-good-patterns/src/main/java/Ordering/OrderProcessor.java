@@ -1,26 +1,24 @@
 package Ordering;
 
 public class OrderProcessor {
+    private final InformationService informationService;
+    private final OrderService orderService;
+    private final OrderRepository orderRepository;
 
-    private InformationService informationService;
-    private OrderService orderService;
-    private OrderRepository orderRepository;
+    public OrderProcessor(final InformationService informationService,
+                          final OrderService orderService,
+                          final OrderRepository orderRepoository){
 
-    public OrderProcessor() {
         this.informationService = informationService;
         this.orderService = orderService;
-        this.orderRepository = orderRepository;
+        this.orderRepository = orderRepoository;
     }
 
-    public OrderDto process(final OrderRequest orderRequest) {
-        boolean isOrdered = orderService.order(orderRequest.getUser(), orderRequest.getProduct(), orderRequest.getQuantity());
+    public OrderDto process(final OrderRequest request) {
 
-        if(isOrdered) {
-            informationService.inform(orderRequest.getUser());
-            orderRepository.createOrder(orderRequest.getUser(), orderRequest.getProduct(), orderRequest.getQuantity());
-            return new OrderDto(orderRequest.getUser(), true);
-        } else {
-            return new OrderDto(orderRequest.getUser(), false);
-        }
+        Order order = orderService.order(request);
+        if (order == null) { return null; }
+        return new OrderDto(order, informationService.inform(order),
+                orderRepository.createOrder(order));
     }
 }
