@@ -39,6 +39,8 @@ public class LibraryTestSuite {
             System.out.println(e);
         }
 
+        //When
+        library.getBooks().remove(fernMoorDriveLibraryBooks);
 
 
         //Then
