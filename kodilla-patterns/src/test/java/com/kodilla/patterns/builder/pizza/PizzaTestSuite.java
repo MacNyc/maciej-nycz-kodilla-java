@@ -20,4 +20,4 @@ public class PizzaTestSuite {
         //Then
         Assert.assertEquals(3, howManyIngredients);
     }
-}it
+}
