@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.patterns.strategy.social.UserTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-11-05T17:04:45" hostname="Maciejs-MacBook-Air.local" time="0.008">
+  <properties/>
+  <testcase name="testDefaultSharingStrategies" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.005"/>
+  <testcase name="testIndividualSharingStrategy" classname="com.kodilla.patterns.strategy.social.UserTestSuite" time="0.002"/>
+  <system-out><![CDATA[Lukasz share post on: Twitter
+Maciej share post on: Facebook
+Maria share post on: Facebook
+Lukasz share post on: Twitter
+Lukasz now share post on: Facebook
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

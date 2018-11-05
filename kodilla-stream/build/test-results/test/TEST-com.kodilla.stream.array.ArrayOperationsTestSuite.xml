@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.stream.array.ArrayOperationsTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-05T17:13:44" hostname="Maciejs-MacBook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="testGetAverage" classname="com.kodilla.stream.array.ArrayOperationsTestSuite" time="0.013"/>
+  <system-out><![CDATA[10
+10
+10
+50
+100
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
