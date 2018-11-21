@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.patterns.strategy.CustomerTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-11-05T17:04:45" hostname="Maciejs-MacBook-Air.local" time="0.004">
+<testsuite name="com.kodilla.patterns.strategy.CustomerTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-11-20T23:10:53" hostname="Maciejs-MacBook-Air.local" time="0.003">
   <properties/>
-  <testcase name="testIndividualInvestingStrategy" classname="com.kodilla.patterns.strategy.CustomerTestSuite" time="0.002"/>
+  <testcase name="testIndividualInvestingStrategy" classname="com.kodilla.patterns.strategy.CustomerTestSuite" time="0.001"/>
   <testcase name="testDefaultInvestingStrategies" classname="com.kodilla.patterns.strategy.CustomerTestSuite" time="0.001"/>
   <system-out><![CDATA[Steven should: [Conservative predictor] Buy debentures of XYZ
 Steven now should: [Aggressive predictor] Buy stock of XYZ

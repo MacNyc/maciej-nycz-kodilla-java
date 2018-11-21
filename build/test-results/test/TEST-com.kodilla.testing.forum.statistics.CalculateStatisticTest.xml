@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.statistics.CalculateStatisticTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-11-20T17:15:32" hostname="Maciejs-MacBook-Air.local" time="0.023">
+  <properties/>
+  <testcase name="testUserQuantity1" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.008"/>
+  <testcase name="testUserQuantity2" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.003"/>
+  <testcase name="testAvgPostPerUser1" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.001"/>
+  <testcase name="testAvgPostPerUser2" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.003"/>
+  <testcase name="testCommentQuantity" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.001"/>
+  <testcase name="testCommentsPost1" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.001"/>
+  <testcase name="testCommentsPost2" classname="com.kodilla.testing.forum.statistics.CalculateStatisticTest" time="0.002"/>
+  <system-out><![CDATA[Preparing to execute test #1
+Test executed
+Preparing to execute test #3
+Test executed
+Preparing to execute test #5
+Test executed
+Preparing to execute test #7
+Test executed
+Preparing to execute test #9
+Test executed
+Preparing to execute test #11
+Test executed
+Preparing to execute test #13
+Test executed
+All tests are finished.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
