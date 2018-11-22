@@ -26,19 +26,19 @@ public class InvoiceDaoTestSuite {
     @Test
     public void testSave() {
         // Given
-        int pid1 = productDao.save(new Product("Bread")).getId();
-        int pid2 = productDao.save(new Product("Butter")).getId();
-        int pid3 = productDao.save(new Product("Cheese")).getId();
+        int pid1 = productDao.save(new Product("Nikon D80")).getId();
+        int pid2 = productDao.save(new Product("MiniHybridPlugIn")).getId();
+        int pid3 = productDao.save(new Product("iPhoneXR")).getId();
 
-        Invoice invoice = new Invoice("F/1/2018");
+        Invoice invoice = new Invoice("F/11/2018");
         List<Item> items = invoice.getItems();
-        Item item1 = new Item(productDao.findOne(pid1), new BigDecimal("3.20"), 3);
+        Item item1 = new Item(productDao.findOne(pid1), new BigDecimal("3200.0"), 3);
         items.add(item1);
         item1.setInvoice(invoice);
-        Item item2 = new Item(productDao.findOne(pid2), new BigDecimal("4.60"), 1);
+        Item item2 = new Item(productDao.findOne(pid2), new BigDecimal("32000.5"), 1);
         items.add(item2);
         item2.setInvoice(invoice);
-        Item item3 = new Item(productDao.findOne(pid3), new BigDecimal("5.35"), 2);
+        Item item3 = new Item(productDao.findOne(pid3), new BigDecimal("980.0"), 2);
         items.add(item3);
         item3.setInvoice(invoice);
 
