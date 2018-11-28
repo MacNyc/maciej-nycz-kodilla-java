@@ -5,6 +5,18 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedNativeQueries({
+        @NamedNativeQuery(
+                name = "Company.retrieveCompaniesWithNamePrefix",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:PIECE_OF_NAME) ORDER BY COMPANY_NAME",
+                resultClass = Company.class
+        ),
+        @NamedNativeQuery(
+                name = "Company.retrieveCompaniesWithNameFragment",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:BEGINSWITH) ORDER BY COMPANY_NAME",
+                resultClass = Company.class
+        )
+})
 @Entity
 @Table(name = "COMPANIES")
 public class Company {

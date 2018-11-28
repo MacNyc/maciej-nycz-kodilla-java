@@ -5,6 +5,16 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedQueries({
+        @NamedQuery(
+                name = "Employee.retrieveEmployeesWithLastName",
+                query = "FROM Employee WHERE lastname = :LASTNAME ORDER BY lastname, firstname"
+        ),
+        @NamedQuery(
+                name = "Employee.retrieveEmployeesWithPartOfName",
+                query = "FROM Employee WHERE lastname LIKE CONCAT() ORDER BY lastname, firstname"
+        )
+})
 @Entity
 @Table(name = "EMPLOYEES")
 public class Employee {
@@ -66,4 +76,5 @@ public class Employee {
     private void setCompanies(List<Company> companies) {
         this.companies = companies;
     }
+
 }
