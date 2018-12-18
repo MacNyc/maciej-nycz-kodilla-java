@@ -1,4 +1,4 @@
-package com.kodilla.kodilla.spring;
+package com.kodilla.spring;
 
 import com.kodilla.spring.shape.Shape;
 import org.junit.Assert;

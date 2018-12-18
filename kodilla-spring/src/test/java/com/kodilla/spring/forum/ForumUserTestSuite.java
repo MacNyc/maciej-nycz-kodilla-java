@@ -1,4 +1,4 @@
-package com.kodilla.kodilla.spring.com.kodilla.spring.forum;
+package com.kodilla.spring.forum;
 
 
 import com.kodilla.spring.forum.ForumUser;

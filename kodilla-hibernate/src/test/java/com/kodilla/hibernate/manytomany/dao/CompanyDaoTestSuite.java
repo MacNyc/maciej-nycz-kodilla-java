@@ -64,7 +64,7 @@ public class CompanyDaoTestSuite {
 
     @Test
     public void CompaniesWithThreeFirstLetters() {
-        final String threeLetters = "Car";
+        final String threeLetters = "Ca2";
 
         //Given
         Employee maciejNycz = new Employee("Maciej", "Nycz");
@@ -72,7 +72,7 @@ public class CompanyDaoTestSuite {
         Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
         Company carphoneWarehouse = new Company("Carphone Warehouse");
         Company carPainting = new Company("Car Painting");
-        Company carMatter = new Company("Car Matter");
+        Company carMatter = new Company("Ca2 Matter");
 
         carphoneWarehouse.getEmployees().add(maciejNycz);
         maciejNycz.getCompanies().add(carphoneWarehouse);
@@ -91,8 +91,8 @@ public class CompanyDaoTestSuite {
         ids.add(companyDao.save(carMatter).getId());
 
         //When & Then
-        Assert.assertEquals(Arrays.asList(carphoneWarehouse, carPainting, carMatter),
-                companyDao.retrieveCompaniesWithThreeFirstLetters(threeLetters));
+        Assert.assertEquals(carMatter,
+                companyDao.retrieveCompaniesWithThreeFirstLetters(threeLetters).get(0));
     }
 
     @Test

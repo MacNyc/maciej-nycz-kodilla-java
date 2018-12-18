@@ -16,7 +16,7 @@ import java.util.Objects;
         ),
         @NamedNativeQuery(
                 name = "Company.retrieveCompaniesWithPartOfName",
-                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:BEGINSWITH) ORDER BY COMPANY_NAME",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT('%':BEGINSWITH '%') ORDER BY COMPANY_NAME",
                 resultClass = Company.class
         )
 })
@@ -78,5 +78,14 @@ public class Company {
     @Override
     public int hashCode() {
         return Objects.hash(getId(), getName(), getEmployees());
+    }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", employees=" + employees +
+                '}';
     }
 }

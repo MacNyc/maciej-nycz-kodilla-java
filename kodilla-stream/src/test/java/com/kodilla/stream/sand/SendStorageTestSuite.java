@@ -23,7 +23,7 @@ public class SendStorageTestSuite {
         }
 
         //Then
-        BigDecimal expectedSand = new BigDecimal("211111110903703703670");
+        BigDecimal expectedSand = new BigDecimal("409876542906172839450");
         Assert.assertEquals(expectedSand, totalSand);
     }
     @Test
@@ -40,7 +40,7 @@ public class SendStorageTestSuite {
                 .reduce(BigDecimal.ZERO, (sum, current) -> sum = sum.add(current));
 
         //Then
-        BigDecimal expectedSand = new BigDecimal("211111110903703703670");
+        BigDecimal expectedSand = new BigDecimal("409876542906172839450");
         Assert.assertEquals(expectedSand, totalSand);
     }
 
