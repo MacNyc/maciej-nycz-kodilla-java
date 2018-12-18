@@ -11,12 +11,12 @@ import java.util.Objects;
 @NamedNativeQueries({
         @NamedNativeQuery(
                 name = "Company.retrieveCompaniesWithThreeFirstLetters",
-                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:PIECE_OF_NAME, %) ORDER BY COMPANY_NAME",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:PIECE_OF_NAME, '%') ORDER BY COMPANY_NAME",
                 resultClass = Company.class
         ),
         @NamedNativeQuery(
                 name = "Company.retrieveCompaniesWithPartOfName",
-                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(%, :BEGINSWITH, %) ORDER BY COMPANY_NAME",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:BEGINSWITH) ORDER BY COMPANY_NAME",
                 resultClass = Company.class
         )
 })
