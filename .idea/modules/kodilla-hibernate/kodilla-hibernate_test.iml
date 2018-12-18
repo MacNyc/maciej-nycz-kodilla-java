@@ -19,6 +19,7 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-validation:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: javax.xml.bind:jaxb-api:2.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.4" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:1.5.9.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: mysql:mysql-connector-java:5.1.44" level="project" />
