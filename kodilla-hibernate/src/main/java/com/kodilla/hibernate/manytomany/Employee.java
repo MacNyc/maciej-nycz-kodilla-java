@@ -4,6 +4,9 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+
+import lombok.*;
 
 @NamedQueries({
         @NamedQuery(
@@ -77,4 +80,19 @@ public class Employee {
         this.companies = companies;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getId() == employee.getId() &&
+                Objects.equals(getFirstname(), employee.getFirstname()) &&
+                Objects.equals(getLastname(), employee.getLastname()) &&
+                Objects.equals(getCompanies(), employee.getCompanies());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getFirstname(), getLastname(), getCompanies());
+    }
 }

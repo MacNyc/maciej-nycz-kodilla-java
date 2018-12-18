@@ -1,19 +1,22 @@
 package com.kodilla.hibernate.manytomany;
 
+import lombok.EqualsAndHashCode;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @NamedNativeQueries({
         @NamedNativeQuery(
-                name = "Company.retrieveCompaniesWithNamePrefix",
-                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:PIECE_OF_NAME) ORDER BY COMPANY_NAME",
+                name = "Company.retrieveCompaniesWithThreeFirstLetters",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:PIECE_OF_NAME, %) ORDER BY COMPANY_NAME",
                 resultClass = Company.class
         ),
         @NamedNativeQuery(
-                name = "Company.retrieveCompaniesWithNameFragment",
-                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(:BEGINSWITH) ORDER BY COMPANY_NAME",
+                name = "Company.retrieveCompaniesWithPartOfName",
+                query = "SELECT * FROM COMPANIES WHERE COMPANY_NAME LIKE CONCAT(%, :BEGINSWITH, %) ORDER BY COMPANY_NAME",
                 resultClass = Company.class
         )
 })
@@ -60,5 +63,20 @@ public class Company {
 
     private void setEmployees(List<Employee> employees) {
         this.employees = employees;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Company)) return false;
+        Company company = (Company) o;
+        return getId() == company.getId() &&
+                Objects.equals(getName(), company.getName()) &&
+                Objects.equals(getEmployees(), company.getEmployees());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getName(), getEmployees());
     }
 }

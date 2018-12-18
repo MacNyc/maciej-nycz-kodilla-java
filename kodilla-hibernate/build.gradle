@@ -34,5 +34,6 @@ dependencies {
     runtime('mysql:mysql-connector-java')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile 'javax.xml.bind:jaxb-api:2.3.0'
+    compile('org.projectlombok:lombok:1.18.4')
 }
 

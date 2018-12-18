@@ -9,15 +9,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Transactional
 public class CompanyDaoTestSuite {
     @Autowired
     private CompanyDao companyDao;
@@ -59,14 +60,6 @@ public class CompanyDaoTestSuite {
         assertNotEquals(0, dataMaestersId);
         assertNotEquals(0, greyMatterId);
 
-        //CleanUp
-        try {
-            companyDao.delete(softwareMachineId);
-            companyDao.delete(dataMaestersId);
-            companyDao.delete(greyMatterId);
-        } catch (Exception e) {
-            //do nothing
-        }
     }
 
     @Test
@@ -74,21 +67,21 @@ public class CompanyDaoTestSuite {
         final String threeLetters = "Car";
 
         //Given
-        Employee johnSmith = new Employee("Maciej", "Nycz");
-        Employee stephanieClarckson = new Employee("Maria", "Nycz");
+        Employee maciejNycz = new Employee("Maciej", "Nycz");
+        Employee mariaNycz = new Employee("Maria", "Nycz");
         Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
         Company carphoneWarehouse = new Company("Carphone Warehouse");
         Company carPainting = new Company("Car Painting");
-        Company carMatter = new Company("Grey Matter");
+        Company carMatter = new Company("Car Matter");
 
-        carphoneWarehouse.getEmployees().add(johnSmith);
-        johnSmith.getCompanies().add(carphoneWarehouse);
-        carPainting.getEmployees().add(stephanieClarckson);
-        stephanieClarckson.getCompanies().add(carPainting);
+        carphoneWarehouse.getEmployees().add(maciejNycz);
+        maciejNycz.getCompanies().add(carphoneWarehouse);
+        carPainting.getEmployees().add(mariaNycz);
+        mariaNycz.getCompanies().add(carPainting);
         carPainting.getEmployees().add(lindaKovalsky);
         lindaKovalsky.getCompanies().add(carPainting);
-        carMatter.getEmployees().add(johnSmith);
-        johnSmith.getCompanies().add(carMatter);
+        carMatter.getEmployees().add(maciejNycz);
+        maciejNycz.getCompanies().add(carMatter);
         carMatter.getEmployees().add(lindaKovalsky);
         lindaKovalsky.getCompanies().add(carMatter);
 
@@ -104,15 +97,18 @@ public class CompanyDaoTestSuite {
 
     @Test
     public void EmployeesWithLastName() {
-        final String lastName = "Nycz";
+        final String lastJaromin = "Jaromin";
 
         //Given
-        Employee maciejNycz = new Employee("Maciej", "Nycz");
-        Employee stephanieClarckson = new Employee("Maria", "Nycz");
-        Employee lindaKovalsky = new Employee("Linda", "Kovalsk");
+        Employee andrzejJaromin = new Employee("Andrzej", "Jaromin");
+
+
+        employeeDao.save(andrzejJaromin);
+
 
         //When & Then
-        Assert.assertEquals(maciejNycz, employeeDao.retrieveEmployeesWithLastName(lastName));
+        Assert.assertEquals(andrzejJaromin, employeeDao.retrieveEmployeesWithLastName(lastJaromin).get(0));
+
 
     }
 }
