@@ -11,11 +11,11 @@ import lombok.*;
 @NamedQueries({
         @NamedQuery(
                 name = "Employee.retrieveEmployeesWithLastName",
-                query = "FROM Employee WHERE lastname = :LASTNAME ORDER BY lastname, firstname"
+                query = "FROM Employee WHERE lastname LIKE CONCAT('%', :LASTNAME , '%')ORDER BY lastname, firstname"
         ),
         @NamedQuery(
                 name = "Employee.retrieveEmployeesWithPartOfName",
-                query = "FROM Employee WHERE lastname LIKE CONCAT() ORDER BY lastname, firstname"
+                query = "FROM Employee WHERE lastname LIKE CONCAT('%', :BEGINSWITH , '%') ORDER BY lastname"
         )
 })
 @Entity

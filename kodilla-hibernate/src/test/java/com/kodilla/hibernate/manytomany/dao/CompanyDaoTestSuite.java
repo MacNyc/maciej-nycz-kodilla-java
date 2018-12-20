@@ -107,7 +107,7 @@ public class CompanyDaoTestSuite {
 
 
         //When & Then
-        Assert.assertEquals(andrzejJaromin, employeeDao.retrieveEmployeesWithLastName(lastJaromin).get(0));
+        Assert.assertEquals(andrzejJaromin, employeeDao.retrieveEmployeesWithPartOfName(lastJaromin).get(0));
 
 
     }
