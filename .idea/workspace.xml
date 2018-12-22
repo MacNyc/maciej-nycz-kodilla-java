@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db485698-ba63-40c0-b5a5-02ca15be6f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Watcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/aop/calculator/CalculatorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaHelpForumTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaToolsForumTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/MentorTaskQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObservableStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObserverStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/TaskToMentorCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/forum/ForumUserTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueueTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2a2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2a2/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,7 +99,7 @@
           <entry key="gitignore" value="2" />
           <entry key="gradle" value="25" />
           <entry key="gradlew" value="2" />
-          <entry key="java" value="149" />
+          <entry key="java" value="182" />
           <entry key="properties" value="5" />
         </counts>
       </usages-collector>
@@ -102,23 +107,23 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="Groovy" value="25" />
-          <entry key="JAVA" value="149" />
+          <entry key="JAVA" value="182" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="29" />
+          <entry key="dummy" value="62" />
           <entry key="gradle" value="166" />
-          <entry key="java" value="8505" />
+          <entry key="java" value="10369" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="166" />
-          <entry key="JAVA" value="8505" />
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="JAVA" value="10369" />
+          <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
     </session>
@@ -126,10 +131,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueueTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="270">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,42 +143,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/facade/ShopServiceTestSuite.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="165">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/Order.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/TaskToMentorCheck.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderWatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Watcher.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/MentorTaskQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="370">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,12 +196,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumTopic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#870#871#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObserverStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/forum/ForumUserTestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaToolsForumTopic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2632,22 +2694,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/dao/TaskListDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmoloyeeDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/build.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/KodillaCourseApplication.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/forum/ForumUserTestSuite.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/manyToManyFacade.java" />
-        <option value="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/facade/manyToManyFacadeTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/ManyToManyProcess.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/facade/MTMProcessingException.java" />
         <option value="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
@@ -2677,12 +2723,28 @@
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/build.gradle" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/aop/calculator/CalculatorTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Calculator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Watcher.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/taxiportal/Watcher.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/facade/ShopServiceTestSuite.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/Watcher.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Watcher.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderWatcher.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observer.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observable.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumTopic.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaHelpForumTopic.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaToolsForumTopic.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumUser.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/forum/ForumUserTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/Observe.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/Observable.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObservableStudent.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/TaskToMentorCheck.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/Student.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueueTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObserverStudent.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/MentorTaskQueue.java" />
+        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueue.java" />
       </list>
     </option>
   </component>
@@ -2754,7 +2816,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
-              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -2764,7 +2826,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -2774,29 +2837,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="taxiportal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns2a2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-patterns2a2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
@@ -2830,7 +2872,18 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-patterns2a2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns2a2" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2850,7 +2903,7 @@
     <property name="SearchEverywhereHistoryKey" value="orderFac&#9;FILE&#9;file:///Users/maciejnycz/Documents/Developments/Projects/maciej-nycz-kodilla-java/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545478760545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545493232402" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -2880,33 +2933,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopServiceTestSuite">
-    <configuration name="CalculatorTestSuite (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentTaskQueueTestSuite">
+    <configuration name="ForumUserTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns2a2_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns2a2.aop.calculator.*" />
+          <option name="PATTERN" value="com.kodilla.patterns2a2.observer.forum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.aop.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.aop.calculator.CalculatorTestSuite" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTestSuite.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns2a2_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns2a2.aop.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.aop.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.aop.calculator.CalculatorTestSuite" />
-      <option name="METHOD_NAME" value="testFactorial" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.observer.forum" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.observer.forum.ForumUserTestSuite" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -2925,22 +2962,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopServiceTestSuite.testShopFacade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns2a2_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns2a2.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.facade" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.facade.ShopServiceTestSuite" />
-      <option name="METHOD_NAME" value="testShopFacade" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShopServiceTestSuite.testShopServiceSubmitOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kodilla-patterns2a2_test" />
       <extension name="coverage">
@@ -2952,6 +2973,36 @@
       <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.facade" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.facade.ShopServiceTestSuite" />
       <option name="METHOD_NAME" value="testShopServiceSubmitOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTaskQueueTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns2a2_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns2a2.observer.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.observer.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.observer.homework.StudentTaskQueueTestSuite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTaskQueueTestSuite.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns2a2_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns2a2.observer.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.observer.homework" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.observer.homework.StudentTaskQueueTestSuite" />
+      <option name="METHOD_NAME" value="updateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -2998,19 +3049,19 @@
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2a2Application" />
-      <item itemvalue="JUnit.CalculatorTestSuite (1)" />
-      <item itemvalue="JUnit.CalculatorTestSuite.testFactorial" />
       <item itemvalue="JUnit.ShopServiceTestSuite.testShopServiceSubmitOrder" />
-      <item itemvalue="JUnit.ShopServiceTestSuite.testShopFacade" />
       <item itemvalue="JUnit.ShopServiceTestSuite" />
+      <item itemvalue="JUnit.ForumUserTestSuite" />
+      <item itemvalue="JUnit.StudentTaskQueueTestSuite" />
+      <item itemvalue="JUnit.StudentTaskQueueTestSuite.updateTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentTaskQueueTestSuite" />
+        <item itemvalue="JUnit.StudentTaskQueueTestSuite.updateTest" />
+        <item itemvalue="JUnit.ForumUserTestSuite" />
         <item itemvalue="JUnit.ShopServiceTestSuite" />
         <item itemvalue="JUnit.ShopServiceTestSuite.testShopServiceSubmitOrder" />
-        <item itemvalue="JUnit.ShopServiceTestSuite.testShopFacade" />
-        <item itemvalue="JUnit.CalculatorTestSuite (1)" />
-        <item itemvalue="JUnit.CalculatorTestSuite.testFactorial" />
       </list>
     </recent_temporary>
   </component>
@@ -3033,50 +3084,50 @@
       <workItem from="1545089121066" duration="1014000" />
       <workItem from="1545123283616" duration="14796000" />
       <workItem from="1545156923349" duration="488000" />
-      <workItem from="1545266181278" duration="21378000" />
+      <workItem from="1545266181278" duration="27687000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTestSuite_testFactorial - 2018.12.22 at 10h 36m 47s.xml">
-      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTestSuite_testFactorial - 2018.12.22 at 11h 01m 04s.xml">
-      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTestSuite_testFactorial - 2018.12.22 at 11h 08m 05s.xml">
-      <configuration name="CalculatorTestSuite.testFactorial" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTestSuite_(1) - 2018.12.22 at 11h 10m 10s.xml">
-      <configuration name="CalculatorTestSuite (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTestSuite_(1) - 2018.12.22 at 11h 11m 02s.xml">
-      <configuration name="CalculatorTestSuite (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopServiceTestSuite_testShopServiceSubmitOrder - 2018.12.22 at 11h 25m 43s.xml">
-      <configuration name="ShopServiceTestSuite.testShopServiceSubmitOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopServiceTestSuite_testShopFacade - 2018.12.22 at 11h 27m 02s.xml">
-      <configuration name="ShopServiceTestSuite.testShopFacade" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopServiceTestSuite_testShopServiceSubmitOrder - 2018.12.22 at 11h 28m 07s.xml">
-      <configuration name="ShopServiceTestSuite.testShopServiceSubmitOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopServiceTestSuite - 2018.12.22 at 11h 32m 16s.xml">
-      <configuration name="ShopServiceTestSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShopServiceTestSuite - 2018.12.22 at 11h 34m 28s.xml">
       <configuration name="ShopServiceTestSuite" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShopServiceTestSuite - 2018.12.22 at 11h 38m 21s.xml">
+      <configuration name="ShopServiceTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopServiceTestSuite - 2018.12.22 at 11h 39m 46s.xml">
+      <configuration name="ShopServiceTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumUserTestSuite - 2018.12.22 at 14h 12m 15s.xml">
+      <configuration name="ForumUserTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ForumUserTestSuite - 2018.12.22 at 14h 12m 35s.xml">
+      <configuration name="ForumUserTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTaskQueueTestSuite - 2018.12.22 at 15h 13m 46s.xml">
+      <configuration name="StudentTaskQueueTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTaskQueueTestSuite - 2018.12.22 at 15h 17m 21s.xml">
+      <configuration name="StudentTaskQueueTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTaskQueueTestSuite - 2018.12.22 at 15h 35m 15s.xml">
+      <configuration name="StudentTaskQueueTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTaskQueueTestSuite - 2018.12.22 at 15h 35m 30s.xml">
+      <configuration name="StudentTaskQueueTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTaskQueueTestSuite - 2018.12.22 at 15h 38m 18s.xml">
+      <configuration name="StudentTaskQueueTestSuite" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68635000" />
+    <option name="totallyTimeSpent" value="74944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -3086,7 +3137,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40722892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40722892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -3157,94 +3208,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/KodillaCourseApplication.java" />
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/KodillaHibernateApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/calculator/CalculatorTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/library/LibraryTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/SpringRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/portfolio/BoardTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/reader/ReaderTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/SpringRunnerTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/forum/ForumUserTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-hibernate/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderProcessingException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -3577,16 +3540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/taxiportal/Watcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -3616,8 +3569,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Watcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="113">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3626,8 +3579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
@@ -3640,6 +3593,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/aop/calculator/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObservableStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaHelpForumTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/JavaToolsForumTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/forum/ForumUserTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/ObserverStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/MentorTaskQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/forum/ForumUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/TaskToMentorCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueueTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
