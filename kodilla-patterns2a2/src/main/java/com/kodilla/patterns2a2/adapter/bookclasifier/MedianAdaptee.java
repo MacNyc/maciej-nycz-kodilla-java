@@ -4,7 +4,6 @@ import com.kodilla.patterns2a2.adapter.bookclasifier.libraryb.Book;
 import com.kodilla.patterns2a2.adapter.bookclasifier.libraryb.BookSignature;
 import com.kodilla.patterns2a2.adapter.bookclasifier.libraryb.BookStatistics;
 import com.kodilla.patterns2a2.adapter.bookclasifier.libraryb.Statistics;
-import com.sun.org.glassfish.external.statistics.Statistic;
 
 import java.util.Map;
 
