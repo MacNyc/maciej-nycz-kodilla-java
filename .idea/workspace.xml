@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db485698-ba63-40c0-b5a5-02ca15be6f82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/out/test/classes/com/kodilla/stream/invoice/simple/SimpleInvoiceTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/out/test/classes/com/kodilla/stream/invoice/simple/SimpleInvoiceTestSuite.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -92,7 +93,7 @@
           <entry key="gitignore" value="2" />
           <entry key="gradle" value="25" />
           <entry key="gradlew" value="2" />
-          <entry key="java" value="223" />
+          <entry key="java" value="231" />
           <entry key="properties" value="5" />
         </counts>
       </usages-collector>
@@ -100,7 +101,7 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="Groovy" value="25" />
-          <entry key="JAVA" value="223" />
+          <entry key="JAVA" value="231" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="5" />
         </counts>
@@ -109,13 +110,13 @@
         <counts>
           <entry key="dummy" value="62" />
           <entry key="gradle" value="166" />
-          <entry key="java" value="13020" />
+          <entry key="java" value="13557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="166" />
-          <entry key="JAVA" value="13020" />
+          <entry key="JAVA" value="13557" />
           <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
@@ -123,44 +124,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/test/java/com/kodilla/patterns2a2/observer/homework/StudentTaskQueueTestSuite.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/invoice/simple/SimpleInvoiceTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/adapter/bookclasifier/MedianAdaptee.java">
+        <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -2604,9 +2593,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/BasicPizzaOrder.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/AbstractPizzaOrderDecorator.java" />
-        <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/SizeDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/SizeGigantDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/WithDeliveryDecorator.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/HawaiPizzaOrder.java" />
@@ -2655,6 +2641,9 @@
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java" />
         <option value="$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/adapter/bookclasifier/MedianAdaptee.java" />
         <option value="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java" />
+        <option value="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/invoice/simple/SimpleInvoiceTestSuite.java" />
+        <option value="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleItem.java" />
       </list>
     </option>
   </component>
@@ -2688,25 +2677,59 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -2714,11 +2737,21 @@
             <path>
               <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kodilla-jdbc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kodilla-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maciej-nycz-kodilla-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kodilla-stream" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -2737,7 +2770,7 @@
     <property name="SearchEverywhereHistoryKey" value="orderFac&#9;FILE&#9;file:///Users/maciejnycz/Documents/Developments/Projects/maciej-nycz-kodilla-java/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/facade/api/OrderFacade.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547687414740" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547754201255" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -2767,71 +2800,77 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StoredProcTestSuite">
-    <configuration name="All in kodilla-patterns2a2_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns2a2_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+  <component name="RunManager" selected="JUnit.SimpleInvoiceTestSuite">
+    <configuration name="CheckersTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.patterns.builder.checkers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.builder.checkers" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.builder.checkers.CheckersTestSuite" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoredProcTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-jdbc_test" />
+    <configuration name="CheckersTestSuite.testCheckersBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-patterns_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="PATTERN" value="com.kodilla.patterns.builder.checkers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StoredProcTestSuite.testUpdateBestsellers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-jdbc_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
-      <option name="METHOD_NAME" value="testUpdateBestsellers" />
+      <option name="PACKAGE_NAME" value="com.kodilla.patterns.builder.checkers" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.builder.checkers.CheckersTestSuite" />
+      <option name="METHOD_NAME" value="testCheckersBuilder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoredProcTestSuite.testUpdateVipLevels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-jdbc_test" />
+    <configuration name="SimpleInvoiceTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-stream_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.jdbc.*" />
+          <option name="PATTERN" value="com.kodilla.stream.invoice.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.jdbc.StoredProcTestSuite" />
-      <option name="METHOD_NAME" value="testUpdateVipLevels" />
+      <option name="PACKAGE_NAME" value="com.kodilla.stream.invoice.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.invoice.simple.SimpleInvoiceTestSuite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-stream_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.stream.invoice.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.stream.invoice.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.invoice.simple.SimpleInvoiceTestSuite" />
+      <option name="METHOD_NAME" value="testGetValueToPay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTaskQueueTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-patterns2a2_test" />
+    <configuration name="testLoopAndConditionalBreakpoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-testing_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns2a2.observer.homework.*" />
+          <option name="PATTERN" value="com.kodilla.testing.loop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.patterns2a2.observer.homework" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns2a2.observer.homework.StudentTaskQueueTestSuite" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.loop" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.loop.testLoopAndConditionalBreakpoints" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -2877,19 +2916,19 @@
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2a2Application" />
-      <item itemvalue="JUnit.StudentTaskQueueTestSuite" />
-      <item itemvalue="JUnit.All in kodilla-patterns2a2_test" />
-      <item itemvalue="JUnit.StoredProcTestSuite.testUpdateVipLevels" />
-      <item itemvalue="JUnit.StoredProcTestSuite" />
-      <item itemvalue="JUnit.StoredProcTestSuite.testUpdateBestsellers" />
+      <item itemvalue="JUnit.CheckersTestSuite.testCheckersBuilder" />
+      <item itemvalue="JUnit.CheckersTestSuite" />
+      <item itemvalue="JUnit.testLoopAndConditionalBreakpoints" />
+      <item itemvalue="JUnit.SimpleInvoiceTestSuite" />
+      <item itemvalue="JUnit.SimpleInvoiceTestSuite.testGetValueToPay" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StoredProcTestSuite" />
-        <item itemvalue="JUnit.StoredProcTestSuite.testUpdateBestsellers" />
-        <item itemvalue="JUnit.StoredProcTestSuite.testUpdateVipLevels" />
-        <item itemvalue="JUnit.All in kodilla-patterns2a2_test" />
-        <item itemvalue="JUnit.StudentTaskQueueTestSuite" />
+        <item itemvalue="JUnit.SimpleInvoiceTestSuite" />
+        <item itemvalue="JUnit.SimpleInvoiceTestSuite.testGetValueToPay" />
+        <item itemvalue="JUnit.testLoopAndConditionalBreakpoints" />
+        <item itemvalue="JUnit.CheckersTestSuite" />
+        <item itemvalue="JUnit.CheckersTestSuite.testCheckersBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -2915,50 +2954,49 @@
       <workItem from="1545266181278" duration="35077000" />
       <workItem from="1546633958301" duration="244000" />
       <workItem from="1547076648488" duration="90000" />
-      <workItem from="1547651087984" duration="3814000" />
+      <workItem from="1547651087984" duration="8427000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ForumUserTestSuite - 2019.01.04 at 20h 29m 51s.xml">
-      <configuration name="ForumUserTestSuite" configurationId="JUnit" />
+    <history-entry file="CheckersTestSuite_testCheckersBuilder - 2019.01.17 at 17h 09m 28s.xml">
+      <configuration name="CheckersTestSuite.testCheckersBuilder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentTaskQueueTestSuite - 2019.01.04 at 20h 29m 59s.xml">
-      <configuration name="StudentTaskQueueTestSuite" configurationId="JUnit" />
+    <history-entry file="testLoopAndConditionalBreakpoints - 2019.01.17 at 18h 07m 17s.xml">
+      <configuration name="testLoopAndConditionalBreakpoints" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_kodilla-patterns2a2_test - 2019.01.09 at 23h 31m 48s.xml">
-      <configuration name="All in kodilla-patterns2a2_test" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 18h 45m 11s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.01.16 at 15h 10m 47s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 18h 45m 36s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite - 2019.01.16 at 15h 47m 23s.xml">
-      <configuration name="StoredProcTestSuite" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 18h 45m 54s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite - 2019.01.16 at 15h 50m 06s.xml">
-      <configuration name="StoredProcTestSuite" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 18h 46m 26s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.01.16 at 16h 22m 52s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 18h 52m 23s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateVipLevels - 2019.01.16 at 16h 23m 08s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateVipLevels" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 19h 35m 20s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite - 2019.01.16 at 16h 29m 23s.xml">
-      <configuration name="StoredProcTestSuite" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite - 2019.01.17 at 19h 35m 46s.xml">
+      <configuration name="SimpleInvoiceTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StoredProcTestSuite_testUpdateBestsellers - 2019.01.17 at 01h 10m 04s.xml">
-      <configuration name="StoredProcTestSuite.testUpdateBestsellers" configurationId="JUnit" />
+    <history-entry file="SimpleInvoiceTestSuite_testGetValueToPay - 2019.01.17 at 19h 36m 46s.xml">
+      <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86482000" />
+    <option name="totallyTimeSpent" value="91095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28183118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15879828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2968,8 +3006,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34819278" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29759037" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45180723" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -3039,56 +3077,95 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <condition expression="productName == &quot;Product 2&quot;" language="JAVA" />
+          <url>file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/checkers/Checkers.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="product.productName.equals(&quot;Product 2&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleItem.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>product.productName.equals(&quot;Product 2&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>product.productName.equals(&quot;product2&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>Ordering.Product</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>product.productName.equals(&quot;product2&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>Ordering.Product</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String productName == &quot;Product 2&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>Ordering.Product</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>SimpleProduct simpleProduct = product.productName ==&quot;Product 2&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>Ordering.Product</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>product.productName a == &quot;Product 2&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>product.productName == &quot;Product 2&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>productName == &quot;Product 2&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n == 950</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/BasicPizzaOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/SizeGigantDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/WithDeliveryDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/pizza/HawaiPizzaOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/taxiportal/BasicTaxiOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-patterns2a2/src/main/java/com/kodilla/patterns2a2/decorator/taxiportal/TaxiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -3389,10 +3466,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="376">
           <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/checkers/Checkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/testLoopAndConditionalBreakpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/builder/checkers/CheckersTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleInvoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/invoice/simple/SimpleInvoiceTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="69" lean-forward="true" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#508#509#0" expanded="true" />
           </folding>
         </state>
       </provider>
