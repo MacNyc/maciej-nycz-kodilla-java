@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing2.crudapp.CrudAppTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-19T23:03:56" hostname="Maciejs-MacBook-Air.local" time="12.173">
+  <properties/>
+  <testcase name="shouldCreateTrelloCard" classname="com.kodilla.testing2.crudapp.CrudAppTestSuite" time="12.173"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb) on port 48389
+Only local connections are allowed.
+Jan 19, 2019 11:03:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>
